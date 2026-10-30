@@ -1,0 +1,12 @@
+_ > nanoagent.plugin.v0001.ProductConfig:
+tagline: "Can an AI agent beat the greedy way of making change?"
+summary: "Seven coin problems where taking the biggest coin first usually goes wrong: it can use too many coins, or get stuck on an amount that can be made. One amount cannot be made at all. The agent must find the fewest coins with only 12 tool calls, and dynamic programming checks every answer."
+highlights:
+  - "A greedy-looking answer is a trap in most problems"
+  - "Any set of coins that is as short as the best is accepted"
+  - "Tests whether the agent knows when an amount is impossible"
+steps:
+  - "Pick a problem, coins-01 to coins-07"
+  - "The agent reads the coins and amount, and can compare with the greedy answer"
+  - "It submits its coins, or says the amount cannot be made"
+  - "The verdict compares its count with the true fewest"
